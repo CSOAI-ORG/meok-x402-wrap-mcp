@@ -1,0 +1,31 @@
+{
+  "name": "meok-x402-wrap-mcp",
+  "title": "Meok X402 Wrap Mcp",
+  "description": "MEOK x402 Wrap MCP \u2014 1-line USDC paywall for any FastMCP tool. Coinbase x402 + on-chain settlement on Base / Polygon / Solana / Lightning. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "wrap_tool"
+    },
+    {
+      "name": "decode_payment_header"
+    },
+    {
+      "name": "generate_402_challenge"
+    },
+    {
+      "name": "verify_settlement"
+    },
+    {
+      "name": "list_chains"
+    },
+    {
+      "name": "sign_receipt"
+    }
+  ]
+}

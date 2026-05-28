@@ -1,0 +1,22 @@
+# meok-x402-wrap-mcp
+
+> MEOK x402 Wrap MCP — 1-line USDC paywall for any FastMCP tool. Coinbase x402 + on-chain settlement on Base / Polygon / Solana / Lightning. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- wrap_tool
+- decode_payment_header
+- generate_402_challenge
+- verify_settlement
+- list_chains
+- sign_receipt
+
+## Install
+```
+pip install meok-x402-wrap-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-x402-wrap-mcp/
+- Docs: https://meok.ai
