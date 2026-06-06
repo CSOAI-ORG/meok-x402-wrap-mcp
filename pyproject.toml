@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-x402-wrap-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "MEOK x402 Wrap MCP — 1-line USDC paywall for any FastMCP tool. Coinbase x402 + on-chain settlement on Base / Polygon / Solana / Lightning. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }

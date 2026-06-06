@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Buy Pro: https://www.csoai.org/checkout
+
 MEOK x402 Wrap MCP — 1-line USDC paywall for any FastMCP tool
 ================================================================
 
