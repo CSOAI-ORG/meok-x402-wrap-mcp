@@ -2,8 +2,26 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/meok-x402-wrap-mcp",
   "version": "1.0.0",
-  "description": "MEOK x402 Wrap MCP — 1-line USDC paywall for any FastMCP tool. Coinbase x402 + on-chain settlement on Base / Polygon / Solana / Lightning. By MEOK AI Labs.",
-  "repository": { "url": "https://github.com/CSOAI-ORG/meok-x402-wrap-mcp", "source": "github" },
-  "packages": [{ "registryType": "pypi", "identifier": "meok-x402-wrap-mcp", "version": "1.0.0", "runtimeHint": "python", "transport": { "type": "stdio" } }],
-  "remotes": [{ "type": "streamable-http", "url": "https://api.meok.ai/v1/a2a/x402-wrap" }]
+  "description": "MEOK x402 Wrap MCP \u2014 1-line USDC paywall for any FastMCP tool. Coinbase x402 + on-chain settlement",
+  "repository": {
+    "url": "https://github.com/CSOAI-ORG/meok-x402-wrap-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "meok-x402-wrap-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "python",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.meok.ai/v1/a2a/x402-wrap"
+    }
+  ]
 }
