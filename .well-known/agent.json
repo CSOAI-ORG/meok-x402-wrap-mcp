@@ -1,0 +1,77 @@
+{
+  "name": "meok-x402-wrap-mcp",
+  "description": "MEOK x402 Wrap MCP \u2014 1-line USDC paywall for any FastMCP tool. Coinbase x402 + on-chain settlement",
+  "url": "https://proofof.ai/scorecard/meok-x402-wrap-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "wrap_tool",
+      "name": "Wrap Tool",
+      "description": "wrap_tool via meok-x402-wrap-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "decode_payment_header",
+      "name": "Decode Payment Header",
+      "description": "decode_payment_header via meok-x402-wrap-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_402_challenge",
+      "name": "Generate 402 Challenge",
+      "description": "generate_402_challenge via meok-x402-wrap-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "verify_settlement",
+      "name": "Verify Settlement",
+      "description": "verify_settlement via meok-x402-wrap-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_chains",
+      "name": "List Chains",
+      "description": "list_chains via meok-x402-wrap-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_receipt",
+      "name": "Sign Receipt",
+      "description": "sign_receipt via meok-x402-wrap-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
