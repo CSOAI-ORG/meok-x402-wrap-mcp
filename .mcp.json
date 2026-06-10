@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-x402-wrap-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-x402-wrap-mcp"
+      ]
+    }
+  }
+}
