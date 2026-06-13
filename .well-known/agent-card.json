@@ -1,0 +1,134 @@
+{
+  "name": "Meok X402 Wrap Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-x402-wrap-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "MEOK x402 Wrap MCP — 1-line USDC paywall for any FastMCP tool. Coinbase x402 + on-chain settlement on Base / Polygon / Solana / Lightning. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "wrap_tool",
+      "name": "Wrap Tool",
+      "description": "Wrap Tool — a tool of the meok-x402-wrap-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "decode_payment_header",
+      "name": "Decode Payment Header",
+      "description": "Decode Payment Header — a tool of the meok-x402-wrap-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_402_challenge",
+      "name": "Generate 402 Challenge",
+      "description": "Generate 402 Challenge — a tool of the meok-x402-wrap-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "verify_settlement",
+      "name": "Verify Settlement",
+      "description": "Verify Settlement — a tool of the meok-x402-wrap-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_chains",
+      "name": "List Chains",
+      "description": "List Chains — a tool of the meok-x402-wrap-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sign_receipt",
+      "name": "Sign Receipt",
+      "description": "Sign Receipt — a tool of the meok-x402-wrap-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-x402-wrap-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}

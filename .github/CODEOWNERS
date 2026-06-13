@@ -1,0 +1,9 @@
+# Default owner
+* @nicholas-templeman
+
+# Python sources need security review
+*.py @nicholas-templeman
+*.yaml @nicholas-templeman
+
+# Secret management
+**/secrets* @nicholas-templeman
