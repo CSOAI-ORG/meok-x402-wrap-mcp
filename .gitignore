@@ -5,3 +5,6 @@ dist/meok_x402_wrap_mcp-1.0.1.tar.gz
 __pycache__/.!21702!server.cpython-311.pyc
 dist/meok_x402_wrap_mcp-1.0.2-py3-none-any.whl
 pypi-publish-20260609-060323.log
+
+# Auto-added during alignment sweep
+*.pyc
