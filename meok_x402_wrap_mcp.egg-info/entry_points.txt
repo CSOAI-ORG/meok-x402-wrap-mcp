@@ -1,2 +1,0 @@
-[console_scripts]
-meok-x402-wrap-mcp = server:main
